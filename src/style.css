@@ -1,0 +1,40 @@
+*{
+    margin: 10px;
+}
+
+body{
+background-color: lightcoral;
+height: 150px;
+width: 1000x;
+margin: 100px ;
+text-align: left;
+}
+#cuestions {
+    background-color: rgb(189, 255, 209);
+    border: 5px solid gray;
+    height: 100 ;
+    text-align: left;
+    text
+    
+}
+#seleccion{
+
+background-color: rgb(240, 105, 105);
+text-align: center;
+}
+header {
+    background-color: blanchedalmond;
+    border: 3px solid gray;
+    height: 70px;
+    text-align: center;
+}
+
+ footer{
+    background-color: lightslategray;
+    text-align: center;
+    border-top: 5px solid rgb(36, 28, 28);
+    
+    
+    ;
+    
+}
