@@ -1,10 +1,13 @@
-import validator from './validator.js';
-
-console.log(validator);
-
-function refresh ()
+function refresh()
 {
-    location.reload(); 
-   
+ location.reload();  
 }
+
+
+
+//import validator from './validator.js';
+//console.log(validator);
+
+
+
 

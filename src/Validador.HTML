@@ -4,25 +4,34 @@
     <meta charset="utf-8">
     <title>Validador de tarjetas de crédito</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="index.js" ></script>
+    <script src="validator.js"></script>
   </head>
+
   <body>
-    <header>Validar tarjeta de crédito</header>
+    <header>Validar tarjeta de crédito</header>  
     <main><h1>Para comenzar ingresa el número de tarjeta acá <br>
+
+  <input type="number" id="creditCardNumber" placeholder="Ingrese su tarjeta" > 
+  <!-- onkeypress lo esconde al momento de esccribir pero le cambia el valor al input y no da la validacion -->
+
+  <!-- buscar como eliminarle las flechas en google -->
+  <br>
+    <input type="submit" value="Enmascar" id="validar" onclick="enmascarar()" >   
+   <input type="submit" value="Validar tarjeta" id="reversos"  onclick="validate()">
+   
+   
+ <br>  
  ->Recuerda que el número de tarjeta no debe contener espacios, puntos ni comas <br>
-<input type="text>" > <br>
-
-
-
+<br><br>
 
 <input type="button" id="refresh" value="Ingresar otra tarjeta" onclick="refresh()"> <br>
 
- 
     </h1></main>
     <h2> 
     </h2>
     <footer> <a accceskey="inicio" rel="contents"  href=index.html > 
         <input type="button" value="Volver al inicio " > </footer> </a>
         
-    <script src="index.js" type="module"></script>
   </body>
 </html>

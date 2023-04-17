@@ -2,9 +2,19 @@
     margin: 10px;
 }
 
+//* para eliminar las flechas del input number, solo se elimina visulamente
+el mouse igual tendrá la fnción de aumentar
+las flechas aparecen por webkit?? */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
 body{
-background-color: lightcoral;
-height: 150px;
+ background-image: url(https://store.bananacomputer.com/cmsAdmin/uploads/o_1ebm1360a1548187aubidpa1gbaa.jpg); 
+    background-size: cover;
+//*background-color: lightcoral ; */
+height: 100px; 
 width: 1000x;
 margin: 100px ;
 text-align: left;
@@ -14,7 +24,7 @@ text-align: left;
     border: 5px solid gray;
     height: 100 ;
     text-align: left;
-    text
+
     
 }
 #seleccion{
