@@ -12,14 +12,16 @@
     <header>Validar tarjeta de crédito</header>  
     <main><h1>Para comenzar ingresa el número de tarjeta acá <br>
 
-  <input type="number" id="creditCardNumber" placeholder="Ingrese su tarjeta" > 
+      <section id="seleccion">
+
+  <input type="text" id="creditCardNumber" placeholder="Ingrese su tarjeta" onkeypress="maskify()" > 
   <!-- onkeypress lo esconde al momento de esccribir pero le cambia el valor al input y no da la validacion -->
 
   <!-- buscar como eliminarle las flechas en google -->
   <br>
-    <input type="submit" value="Enmascar" id="validar" onclick="enmascarar()" >   
-   <input type="submit" value="Validar tarjeta" id="reversos"  onclick="validate()">
-   
+    <!--<input type="submit" value="Enmascar" id="validar" onclick="maskify()" > -->
+   <input type="submit" value="Validar tarjeta" id="reversos"  onclick="isValid()">
+   </section>
    
  <br>  
  ->Recuerda que el número de tarjeta no debe contener espacios, puntos ni comas <br>
