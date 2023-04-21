@@ -7,33 +7,24 @@
     <script src="index.js" ></script>
     <script src="validator.js"></script>
   </head>
-
   <body>
-    <header>Validar tarjeta de crédito</header>  
-    <main><h1>Para comenzar ingresa el número de tarjeta acá <br>
-
+    <main> <header><h1>Validar tarjeta de crédito</h1></header>  
+   <section id="cuerpo" > <h1>Para comenzar ingresa el número de tarjeta 
       <section id="seleccion">
-
-  <input type="text" id="creditCardNumber" placeholder="Ingrese su tarjeta" onkeypress="maskify()" > 
-  <!-- onkeypress lo esconde al momento de esccribir pero le cambia el valor al input y no da la validacion -->
-
-  <!-- buscar como eliminarle las flechas en google -->
-  <br>
-    <!--<input type="submit" value="Enmascar" id="validar" onclick="maskify()" > -->
-   <input type="submit" value="Validar tarjeta" id="reversos"  onclick="isValid()">
-   </section>
-   
+  <input type="text" class="ingreso" id="creditCardNumber" placeholder="                  Ingrese número de tarjeta" > 
+  <br><br><br><br>
+   <input type="button" class="btn" value="Validar tarjeta" id="reversos"  onclick="isValid();maskify()">
+   <br> <br> 
+   <input type="button" class="btn"  id="refresh" value="Ingresar otra tarjeta" onclick="refresh()"> <br>
+      </section>
  <br>  
- ->Recuerda que el número de tarjeta no debe contener espacios, puntos ni comas <br>
-<br><br>
-
-<input type="button" id="refresh" value="Ingresar otra tarjeta" onclick="refresh()"> <br>
-
+ Recuerda que el número de tarjeta no debe contener espacios, puntos ni comas <br>
+<br><br></section>
     </h1></main>
     <h2> 
     </h2>
-    <footer> <a accceskey="inicio" rel="contents"  href=index.html > 
-        <input type="button" value="Volver al inicio " > </footer> </a>
+    <footer> <a accceskey="inicio" rel="contents"  href=index.html class="inicio">Volver al inicio</a>
+       <!-- <input type="button" value="Volver al inicio " > </footer> </a> -->
         
   </body>
 </html>
