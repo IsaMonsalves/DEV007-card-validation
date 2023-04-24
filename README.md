@@ -1,4 +1,6 @@
-# Tarjeta de crédito válida
+# Validando una tarjeta de crédito
+
+![](https://media.tenor.com/3AV9En0ZpkIAAAAC/tarjeta-de-cr%C3%A9dito-mojo-jojo.gif)
 
 ## Índice
 
