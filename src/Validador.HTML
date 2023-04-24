@@ -1,30 +1,55 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Validador de tarjetas de crédito</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js" ></script>
-    <script src="validator.js"></script>
+    <script src="index.js" type="module"></script>
+    <!-- <script src="validator.js"></script> -->
   </head>
   <body>
-    <main> <header><h1>Validar tarjeta de crédito</h1></header>  
-   <section id="cuerpo" > <h1>Para comenzar ingresa el número de tarjeta 
-      <section id="seleccion">
-  <input type="text" class="ingreso" id="creditCardNumber" placeholder="                  Ingrese número de tarjeta" > 
-  <br><br><br><br>
-   <input type="button" class="btn" value="Validar tarjeta" id="reversos"  onclick="isValid();maskify()">
-   <br> <br> 
-   <input type="button" class="btn"  id="refresh" value="Ingresar otra tarjeta" onclick="refresh()"> <br>
+    <main>
+      <header><h1>Validar tarjeta de crédito</h1></header>
+      <section id="cuerpo">
+        <h1>Para comenzar ingresa el número de tarjeta</h1>
+        <section id="seleccion">
+          <input
+            type="text"
+            class="ingreso"
+            id="creditCardNumber"
+            placeholder="Ingrese número de tarjeta"
+            pattern="^[0-9,#]*#"
+          />
+          <br /><br /><br /><br />
+          <input
+            type="button"
+            class="btn"
+            value="Validar tarjeta"
+            id="reversos"
+            onclick="isValid();maskify()"
+          />
+          <br />
+          <br />
+          <input
+            type="button"
+            class="btn"
+            id="refresh"
+            value="Ingresar otra tarjeta"
+            onclick="refresh();"
+          />
+          <br />
+        </section>
+        <br />
+        Recuerda que el número de tarjeta no debe contener espacios, puntos ni
+        comas <br />
+        <br /><br />
       </section>
- <br>  
- Recuerda que el número de tarjeta no debe contener espacios, puntos ni comas <br>
-<br><br></section>
-    </h1></main>
-    <h2> 
-    </h2>
-    <footer> <a accceskey="inicio" rel="contents"  href=index.html class="inicio">Volver al inicio</a>
-       <!-- <input type="button" value="Volver al inicio " > </footer> </a> -->
-        
+    </main>
+
+    <footer>
+      <a accceskey="inicio" rel="contents" href="index.html" class="inicio"
+        >Volver al inicio
+      </a>
+    </footer>
   </body>
 </html>
