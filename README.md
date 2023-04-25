@@ -37,8 +37,11 @@ Para comenzar el proyecto se realió un bosquejo manual de la interfaz de la pá
 
 Este bosquejo fue digitalizado para comenzar a dar forma al proyectoa través de HTML y CSS respectivamente.
 
+![](https://i.postimg.cc/TPZz8kFf/Boceto.jpg)
 
-IMAGEN
+> Boceto digitalizado
+
+----
 
 
 Una vez realizado el esqueleto visual de la página se comenzó a dar funcionalidad a través de Javascript. En este caso se crearon 2 archivos .JS para separar la lógica de la validación y enmascarado de los números del resto de funciones asociadas al DOM.
