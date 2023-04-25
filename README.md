@@ -4,10 +4,10 @@
 
 ## Índice
 * [1. Preámbulo](#1-Preámbulo)
-* [2. Eligiendo el proyecto](#1-Eligiendo-el-proyecto)
-* [3. Metodología de trabajo](#2-Metodología-de-trabajo)
-* [4. Funcionalidad](#3-funcionalidad)
-* [5. Plataforma](#4-plataforma)
+* [2. Eligiendo el proyecto](#2-Eligiendo-el-proyecto)
+* [3. Metodología de trabajo](#3-Metodología-de-trabajo)
+* [4. Funcionalidad](#4-funcionalidad)
+* [5. Plataforma](#5-plataforma)
 
 ***
 
@@ -43,8 +43,23 @@ IMAGEN
 
 Una vez realizado el esqueleto visual de la página se comenzó a dar funcionalidad a través de Javascript. En este caso se crearon 2 archivos .JS para separar la lógica de la validación y enmascarado de los números del resto de funciones asociadas al DOM.
 
-Cabe destacar que la validación de la tarjeta se realizó bajo la metodología del algoritmo de Luhn que podrán revisar en el siguiente LINK:
+Cabe destacar que la validación de la tarjeta se realizó bajo la metodología del algoritmo de Luhn que podrán revisar en el siguiente Link:
+[id/algoritmo de luhn]:https://es.wikipedia.org/wiki/Algoritmo_de_Luhn#:~:text=El%20algoritmo%20de%20Luhn%20o,cr%C3%A9dito%2C%20n%C3%BAmeros%20IMEI%2C%20etc.
 ## 4. Funcionalidad.
+En cuanto a la funcionalidad principal se establecieron dos grandes desafíos:
+
+#1.Validación de la tarjeta:
+
+Para esto se realizó una función que actuará sobre los números ingresados en el input creditCardNumber, este es un input de tipo texto que se ha condicionado para permitir sólo números del 0 al 9, símbolo # y anular los backspaces.
+
+En palabras simples, el valor se pasó a tipo string y luego se transformó en un array para poder reversar la posición de los carácteres y luego aplicar los pasos restantes para validar la tarjeta. Si el valor corresponde a una tarjeta de crédito retorna un valor boolean True y este despliega un alert indicando la validez de la tarjeta, en caso contrario retorna el valor False y despiega un alert informando la situación.
+
+
+#2.Enmascarado de los números:
+
+Para enmascarar números se generó una función que actúe en los valores del mismo input anterior (creditCardNumber), este se pasó a valor string para poder generar el arrray y ocultar con el símbolo # todos los números excepto los últimos 4, independiente del largo de la cadena.
+
+Cabe destacar que el input fue previamente configurado para permitir un máximo de 18 caracteres ya que las tarjetas de crédito deben tener entre 12 y 18 números.
 
 ## 5. Plataforma.
 
