@@ -43,8 +43,8 @@ IMAGEN
 
 Una vez realizado el esqueleto visual de la página se comenzó a dar funcionalidad a través de Javascript. En este caso se crearon 2 archivos .JS para separar la lógica de la validación y enmascarado de los números del resto de funciones asociadas al DOM.
 
-Cabe destacar que la validación de la tarjeta se realizó bajo la metodología del algoritmo de Luhn que podrán revisar en el siguiente Link:
-[id/algoritmo de luhn]:https://es.wikipedia.org/wiki/Algoritmo_de_Luhn#:~:text=El%20algoritmo%20de%20Luhn%20o,cr%C3%A9dito%2C%20n%C3%BAmeros%20IMEI%2C%20etc.
+Cabe destacar que la validación de la tarjeta se realizó bajo la metodología del [Algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn#:~:text=El%20algoritmo%20de%20Luhn%20o,cr%C3%A9dito%2C%20n%C3%BAmeros%20IMEI%2C%20etc.).
+
 ## 4. Funcionalidad.
 En cuanto a la funcionalidad principal se establecieron dos grandes desafíos:
 
