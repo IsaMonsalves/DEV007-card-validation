@@ -48,14 +48,15 @@ Cabe destacar que la validación de la tarjeta se realizó bajo la metodología 
 ## 4. Funcionalidad.
 En cuanto a la funcionalidad principal se establecieron dos grandes desafíos:
 
-#1.Validación de la tarjeta:
+###### 1.Validación de la tarjeta:
 
 Para esto se realizó una función que actuará sobre los números ingresados en el input creditCardNumber, este es un input de tipo texto que se ha condicionado para permitir sólo números del 0 al 9, símbolo # y anular los backspaces.
 
 En palabras simples, el valor se pasó a tipo string y luego se transformó en un array para poder reversar la posición de los carácteres y luego aplicar los pasos restantes para validar la tarjeta. Si el valor corresponde a una tarjeta de crédito retorna un valor boolean True y este despliega un alert indicando la validez de la tarjeta, en caso contrario retorna el valor False y despiega un alert informando la situación.
 
 
-#2.Enmascarado de los números:
+###### 2.Enmascarado de los números:
+
 
 Para enmascarar números se generó una función que actúe en los valores del mismo input anterior (creditCardNumber), este se pasó a valor string para poder generar el arrray y ocultar con el símbolo # todos los números excepto los últimos 4, independiente del largo de la cadena.
 
