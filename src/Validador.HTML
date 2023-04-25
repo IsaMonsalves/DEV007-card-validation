@@ -18,8 +18,11 @@
             class="ingreso"
             id="creditCardNumber"
             placeholder="Ingrese número de tarjeta"
-            pattern="^[0-9,#]*#"
+            maxlength="18"
+            pattern="^[0-9,#]+"
+            onkeypress="return keepNumbers(event);"
           />
+
           <br /><br /><br /><br />
           <input
             type="button"

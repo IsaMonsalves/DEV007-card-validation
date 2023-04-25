@@ -4,6 +4,26 @@ function refresh() {
   location.reload();
 }
 
+function keepNumbers(event) {
+  if (
+    event.key === "0" ||
+    event.key === "1" ||
+    event.key === "2" ||
+    event.key === "3" ||
+    event.key === "4" ||
+    event.key === "5" ||
+    event.key === "6" ||
+    event.key === "7" ||
+    event.key === "8" ||
+    event.key === "9" ||
+    event.key === "#"
+  ) {
+    return true;
+  }
+
+  return false;
+}
+
 function maskify() {
   const number = document.getElementById("creditCardNumber").value;
   const acumulador = validator.maskify(number);
@@ -30,3 +50,4 @@ function isValid() {
 window.isValid = isValid;
 window.refresh = refresh;
 window.maskify = maskify;
+window.keepNumbers = keepNumbers;
