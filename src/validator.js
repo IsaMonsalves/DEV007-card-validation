@@ -1,11 +1,5 @@
 const validator = {
   isValid: (creditCardNumber) => {
-    //const creditCardNumber = document.getElementById("creditCardNumber").value;
-    /* if (creditCardNumber.length < 12 || creditCardNumber.length > 18) {
-      alert("Su tarjeta debe tener entre 12 y 18 números");
-      return;
-    }
-    */
     const reverse = creditCardNumber.toString().split("").reverse();
     for (let i = 0; i < reverse.length; i++) {
       if ((i + 1) % 2 === 0) {
@@ -25,11 +19,7 @@ const validator = {
     }
     console.log(total);
     console.log(validate);
-    /*  if (validate === true) {
-      alert("El número de tarjeta Si corresponde a una tarjeta de crédito");
-    } else {
-      alert("El número de tarjeta No coresponde a una tarjeta de crédito ");
-    }*/
+
     return validate;
   },
   maskify: (creditCardNumber) => {
