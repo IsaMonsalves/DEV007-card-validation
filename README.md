@@ -4,11 +4,11 @@
 
 ## Índice
 * [1. Preámbulo](#1-Preámbulo)
-* [2. Ejeución](#2-Ejecución)
-* [3. Eligiendo el proyecto](#2-Eligiendo-el-proyecto)
-* [4. Metodología de trabajo](#3-Metodología-de-trabajo)
-* [5. Funcionalidad](#4-funcionalidad)
-* [6. Plataforma](#5-plataforma)
+* [2. Ejecución](#2-Ejecución)
+* [3. Eligiendo el proyecto](#3-Eligiendo-el-proyecto)
+* [4. Metodología de trabajo](#4-Metodología-de-trabajo)
+* [5. Funcionalidad](#5-funcionalidad)
+* [6. Plataforma](#6-plataforma)
 
 ***
 
