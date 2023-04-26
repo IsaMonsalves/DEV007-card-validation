@@ -4,10 +4,11 @@
 
 ## Índice
 * [1. Preámbulo](#1-Preámbulo)
-* [2. Eligiendo el proyecto](#2-Eligiendo-el-proyecto)
-* [3. Metodología de trabajo](#3-Metodología-de-trabajo)
-* [4. Funcionalidad](#4-funcionalidad)
-* [5. Plataforma](#5-plataforma)
+* [2. Ejeución](#2-Ejecución)
+* [3. Eligiendo el proyecto](#2-Eligiendo-el-proyecto)
+* [4. Metodología de trabajo](#3-Metodología-de-trabajo)
+* [5. Funcionalidad](#4-funcionalidad)
+* [6. Plataforma](#5-plataforma)
 
 ***
 
@@ -15,15 +16,32 @@
 
 ¿Estás realizando ventas con tarjeta de crédito y necesitas saber si realmente esta sirve?
 
-¿ Debes realizar una compra y no tienes seguridad del tipo de tarjeta que estás usando
+¿ Debes realizar una compra y no tienes seguridad del tipo de tarjeta que estás usando?
 
 A continuación te presentamos una herramienta muy útil al momento de querer realizar o recibir una compra con el número de una tarjeta de crédito. 
-Nos referimos al validador de tarjetas, el cual fue creado para evitar estafas y fraudes al momento de recibir una compra y evitar vergüenzas y confusión al momento de realizar una compra.
+Nos referimos al **Validador de tarjetas 1.0**,el cual fue creado para evitar estafas y fraudes al momento de recibir una compra y evitar vergüenzas y confusión al momento de realizar una compra.
 
 A través de esta herramienta, te ofrecemos de una manera fácil y segura la oportunidad de validar tu tarjeta de crédito. Para mayor seguridad y entendimiento hemos anexado una sección de preguntas frecuentes para que realizes con toda la confianza el proceso de validación de tu tarjeta.
 
+## 2. Ejecución.
 
-## 2. Eligiendo el proyecto.
+El funcionamiento de la página es bastante simple y fácil de entender.
+
+Para validar tu tarjeta debes seguir los siguientes pasos:
+
++ Dar click al botón `Ir a validar tarjeta de crédito`
++ Ingresar el número de tarjeta en el espacio `Ingrese número de tarjeta` (entre 12 y 18 dígitos y sin espacios)
++ Dar click a `Validar tarjeta`
+
+Al realizar estos pasos se desplegará una alerta indicando si tu tarjeta corresponde o no a una tarjeta de crédito.
+
+Una vez realizada la validación se ocultarán algunos números de tu tarjeta para evitar cualquier vulneración de tus datos.
+
+Si gustas validar otra tarjeta puedes seleccionar el botón `Ingresa otra tarjeta` para proceder.
+
+
+
+## 3. Eligiendo el proyecto.
 
 Es cierto que hoy en día las compras por internet se realizan de manera masiva en todos los lugares del mundo, si bien su uso puede ser casi intuitivo,se sabe que no todas las personas confían en aplicar los métodos de pago de manera inmediata, ya que en algunos casos el pago puede ser rechazado debido al tipo de tarjeta a utilizar.
 
@@ -31,7 +49,7 @@ Es por esto que se decidió crear un proyecto pensando en aquellas personas que 
 
 Debido a lo anterior se comenzó a trabajar en un prototipo de validador de tarjeta que sea comprensible y fácil de usar pero que a la vez otorgue confianza y seguridad al usuario, dando una estructura seria y elaborada a la interfaz del proyecto.
 
-## 3. Metodología de trabajo.
+## 4. Metodología de trabajo.
 
 Para comenzar el proyecto se realió un bosquejo manual de la interfaz de la página, pensando en que se despliegue una página de incio en la que se puede seleccionar botones que te redirijan al validador o las preguntas frecuentes. 
 
@@ -48,7 +66,7 @@ Una vez realizado el esqueleto visual de la página se comenzó a dar funcionali
 
 Cabe destacar que la validación de la tarjeta se realizó bajo la metodología del [Algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn#:~:text=El%20algoritmo%20de%20Luhn%20o,cr%C3%A9dito%2C%20n%C3%BAmeros%20IMEI%2C%20etc.).
 
-## 4. Funcionalidad.
+## 5. Funcionalidad.
 En cuanto a la funcionalidad principal se establecieron dos grandes desafíos:
 
 ###### 1.Validación de la tarjeta:
@@ -65,7 +83,7 @@ Para enmascarar números se generó una función que actúe en los valores del m
 
 Cabe destacar que el input fue previamente configurado para permitir un máximo de 18 caracteres ya que las tarjetas de crédito deben tener entre 12 y 18 números.
 
-## 5. Plataforma.
+## 6. Plataforma.
 
 Durante la realización del proyecto se utilizó la plataforma GitHub para almacenar los archivos e ir actualizando los cambios a través de commits.
 
@@ -77,7 +95,7 @@ Una vez terminada, testeada y aprobada la página se utilizó Git Pages para hac
 
 ***
 
-*A futuro se espera poder sseguir dando funcionalidad  a la página generando una actualización que agregue el inentificador de franquicia para agregar información útil al usuario.
+*A futuro se espera poder sseguir dando funcionalidad  a la página generando una actualización que agregue el identificador de franquicia para agregar información útil al usuario.
 >Derechos de autor reservados a nombre de  Ester Isabella Monsalves Muñoz.
 
 
